@@ -373,3 +373,6 @@ Docker 按层缓存。先复制依赖清单再 `pip install`，只要 `requireme
 ## 许可
 
 仅用于 AI-Lab 通识课程学习。
+### 本文档由DeekSeek生成
+
+### 特别鸣谢:爱吃白饭的大肥鱼
