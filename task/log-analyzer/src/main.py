@@ -35,6 +35,14 @@ def main():
         if not records:
             print(f"[提示] 没有 {args.level} 级别的记录。", file=sys.stderr)
             return 1
+        """
+        return 1 通俗约定
+        0	成功（只有 0 算成功）
+        1	一般错误
+        2	用法错误（argparse 用这个）
+        127	命令不存在
+        130	被 Ctrl+C 中断
+        """
 
     summary = build_summary(args.input, records, total, invalid)
 
