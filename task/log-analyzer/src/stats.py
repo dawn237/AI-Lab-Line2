@@ -47,15 +47,17 @@ def error_top(records,top_n=5):
     counter=Counter()
     for record in records:
         if record["level"]=="ERROR":
-            counter[record["message"]]+=1
+            counter[normalize(record["message"])]+=1
     return counter.most_common(top_n)
 
+"""['a', 'is', 'OK', 'DB']    ← 全抓，全是噪音
+    [A-Za-z_]{3,}  →  []          ← 太短的全跳过"""
 def keyword_top(records,top_n=5):
     counter=Counter()
     for record in records:
         if record["level"] not in ("WARN","ERROR"):
             continue
-        for word in re.findall(r"[A-Za-z_]+",record["message"]):
+        for word in re.findall(r"[A-Za-z_]{3,}",record["message"]):
             word=word.lower()
             if word in STOPWORDS:
                 continue
