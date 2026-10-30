@@ -31,6 +31,7 @@ def build_markdown(data):
             j+=1
             reports.append(f"| {j} | {check_error} |")
     # 其他
+    reports.append("\n")
     reports.append(f"task_id:`{json_load.get("task_id","暂无")}`  ")
     reports.append(f"task:`{json_load.get("task","暂无")}`  ")
     reports.append(f"screen: width:`{json_load["screen"]["width"]}`height:`{json_load["screen"]["height"]}`  ")
