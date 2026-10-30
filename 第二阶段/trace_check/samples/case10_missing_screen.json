@@ -1,0 +1,11 @@
+{
+  "task_id": "case10",
+  "steps": [
+    {
+      "step": 1,
+      "action": "click",
+      "x": 120,
+      "y": 340
+    }
+  ]
+}

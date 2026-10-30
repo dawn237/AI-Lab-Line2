@@ -1,0 +1,14 @@
+{
+  "task_id": "case03",
+  "screen": {
+    "width": 1920,
+    "height": 1080
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "hotkey",
+      "keys": "ctrl+s"
+    }
+  ]
+}

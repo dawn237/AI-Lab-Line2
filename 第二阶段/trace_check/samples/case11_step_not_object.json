@@ -1,0 +1,10 @@
+{
+  "task_id": "case11",
+  "screen": {
+    "width": 1920,
+    "height": 1080
+  },
+  "steps": [
+    "click 120 340"
+  ]
+}

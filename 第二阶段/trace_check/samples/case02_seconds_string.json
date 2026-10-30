@@ -1,0 +1,14 @@
+{
+  "task_id": "case02",
+  "screen": {
+    "width": 1920,
+    "height": 1080
+  },
+  "steps": [
+    {
+      "step": 1,
+      "action": "wait",
+      "seconds": "0.5"
+    }
+  ]
+}
