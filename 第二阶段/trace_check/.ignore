@@ -1,0 +1,13 @@
+ 本机环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# IDE 与插件
+.idea/
+.ignore/
+
+# 生成的报告：作为交付证据要提交，所以不忽略
+# report.md
