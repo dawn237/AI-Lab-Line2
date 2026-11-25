@@ -1,0 +1,6 @@
+{"ts": "2026-11-25T22:30:40.043", "level": "INFO", "phase": "start", "action": "click_menu", "message": "开始执行", "ms": 903}
+{"ts": "2026-11-25T22:30:40.047", "level": "INFO", "phase": "end", "action": "click_menu", "message": "执行成功", "ms": 903}
+{"ts": "2026-11-25T22:30:40.895", "level": "INFO", "phase": "start", "action": "click_ok", "message": "开始执行", "ms": 848}
+{"ts": "2026-11-25T22:30:40.897", "level": "INFO", "phase": "end", "action": "click_ok", "message": "执行成功", "ms": 848}
+{"ts": "2026-11-25T22:30:41.766", "level": "INFO", "phase": "start", "action": "click_menu", "message": "开始执行", "ms": 870}
+{"ts": "2026-11-25T22:30:46.782", "level": "ERROR", "phase": "end", "action": "click_menu", "message": "期望弹窗出现，5 秒内没出现", "ms": 870}
