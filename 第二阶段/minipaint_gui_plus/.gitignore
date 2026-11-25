@@ -1,0 +1,9 @@
+# miniPaint 本体（自己下载解压到 env/miniPaint-master）
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
