@@ -93,6 +93,12 @@ miniPaint 静态文件放在 `env/miniPaint-master`。
 | `message` | 人话说明 |
 | `ms` | 这一步花了多少毫秒 |
 
+## 画出来的图
+
+796 条线、3047 个点，810×810 画布，耗时约 2 分半：
+
+![成品](images/result.png)
+
 ## 截图
 
 运行成功：
