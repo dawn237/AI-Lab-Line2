@@ -1,0 +1,10703 @@
+{
+ "task_id": "anime_max",
+ "screen": {
+  "width": 810,
+  "height": 810
+ },
+ "steps": [
+  {
+   "step": 1,
+   "action": "click_menu",
+   "args": {
+    "menu": "file",
+    "item": "new"
+   },
+   "expect": {
+    "dialog": "new_canvas"
+   }
+  },
+  {
+   "step": 2,
+   "action": "fill_size",
+   "args": {
+    "width": 810,
+    "height": 810
+   },
+   "expect": {
+    "fields": [
+     810,
+     810
+    ]
+   }
+  },
+  {
+   "step": 3,
+   "action": "click_ok",
+   "args": {},
+   "expect": {
+    "canvas": [
+     810,
+     810
+    ]
+   }
+  },
+  {
+   "step": 4,
+   "action": "activate_tool",
+   "args": {
+    "tool": "brush"
+   },
+   "expect": {
+    "tool": "brush"
+   }
+  },
+  {
+   "step": 5,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 0
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 6,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 1
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 7,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 2
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 8,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 3
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 9,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 4
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 10,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 5
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 11,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 6
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 12,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 7
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 13,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 8
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 14,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 9
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 15,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 10
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 16,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 11
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 17,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 12
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 18,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 13
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 19,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 14
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 20,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 15
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 21,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 16
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 22,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 17
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 23,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 18
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 24,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 19
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 25,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 20
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 26,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 21
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 27,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 22
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 28,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 23
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 29,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 24
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 30,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 25
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 31,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 26
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 32,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 27
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 33,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 28
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 34,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 29
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 35,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 30
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 36,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 31
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 37,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 32
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 38,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 33
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 39,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 34
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 40,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 35
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 41,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 36
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 42,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 37
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 43,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 38
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 44,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 39
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 45,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 40
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 46,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 41
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 47,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 42
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 48,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 43
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 49,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 44
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 50,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 45
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 51,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 46
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 52,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 47
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 53,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 48
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 54,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 49
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 55,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 50
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 56,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 51
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 57,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 52
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 58,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 53
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 59,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 54
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 60,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 55
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 61,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 56
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 62,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 57
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 63,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 58
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 64,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 59
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 65,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 60
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 66,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 61
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 67,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 62
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 68,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 63
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 69,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 64
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 70,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 65
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 71,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 66
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 72,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 67
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 73,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 68
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 74,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 69
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 75,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 70
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 76,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 71
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 77,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 72
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 78,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 73
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 79,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 74
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 80,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 75
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 81,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 76
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 82,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 77
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 83,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 78
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 84,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 79
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 85,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 80
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 86,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 81
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 87,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 82
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 88,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 83
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 89,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 84
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 90,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 85
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 91,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 86
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 92,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 87
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 93,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 88
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 94,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 89
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 95,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 90
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 96,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 91
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 97,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 92
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 98,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 93
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 99,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 94
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 100,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 95
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 101,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 96
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 102,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 97
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 103,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 98
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 104,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 99
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 105,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 100
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 106,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 101
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 107,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 102
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 108,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 103
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 109,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 104
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 110,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 105
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 111,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 106
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 112,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 107
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 113,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 108
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 114,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 109
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 115,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 110
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 116,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 111
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 117,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 112
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 118,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 113
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 119,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 114
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 120,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 115
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 121,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 116
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 122,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 117
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 123,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 118
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 124,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 119
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 125,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 120
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 126,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 121
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 127,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 122
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 128,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 123
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 129,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 124
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 130,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 125
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 131,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 126
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 132,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 127
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 133,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 128
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 134,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 129
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 135,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 130
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 136,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 131
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 137,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 132
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 138,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 133
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 139,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 134
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 140,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 135
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 141,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 136
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 142,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 137
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 143,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 138
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 144,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 139
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 145,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 140
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 146,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 141
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 147,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 142
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 148,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 143
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 149,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 144
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 150,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 145
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 151,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 146
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 152,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 147
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 153,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 148
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 154,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 149
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 155,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 150
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 156,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 151
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 157,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 152
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 158,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 153
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 159,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 154
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 160,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 155
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 161,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 156
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 162,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 157
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 163,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 158
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 164,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 159
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 165,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 160
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 166,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 161
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 167,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 162
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 168,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 163
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 169,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 164
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 170,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 165
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 171,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 166
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 172,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 167
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 173,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 168
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 174,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 169
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 175,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 170
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 176,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 171
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 177,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 172
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 178,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 173
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 179,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 174
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 180,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 175
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 181,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 176
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 182,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 177
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 183,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 178
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 184,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 179
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 185,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 180
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 186,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 181
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 187,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 182
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 188,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 183
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 189,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 184
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 190,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 185
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 191,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 186
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 192,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 187
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 193,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 188
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 194,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 189
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 195,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 190
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 196,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 191
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 197,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 192
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 198,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 193
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 199,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 194
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 200,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 195
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 201,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 196
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 202,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 197
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 203,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 198
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 204,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 199
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 205,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 200
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 206,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 201
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 207,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 202
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 208,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 203
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 209,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 204
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 210,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 205
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 211,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 206
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 212,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 207
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 213,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 208
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 214,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 209
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 215,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 210
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 216,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 211
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 217,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 212
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 218,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 213
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 219,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 214
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 220,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 215
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 221,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 216
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 222,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 217
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 223,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 218
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 224,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 219
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 225,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 220
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 226,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 221
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 227,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 222
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 228,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 223
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 229,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 224
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 230,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 225
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 231,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 226
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 232,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 227
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 233,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 228
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 234,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 229
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 235,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 230
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 236,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 231
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 237,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 232
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 238,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 233
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 239,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 234
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 240,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 235
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 241,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 236
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 242,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 237
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 243,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 238
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 244,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 239
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 245,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 240
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 246,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 241
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 247,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 242
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 248,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 243
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 249,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 244
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 250,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 245
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 251,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 246
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 252,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 247
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 253,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 248
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 254,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 249
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 255,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 250
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 256,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 251
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 257,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 252
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 258,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 253
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 259,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 254
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 260,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 255
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 261,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 256
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 262,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 257
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 263,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 258
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 264,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 259
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 265,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 260
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 266,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 261
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 267,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 262
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 268,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 263
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 269,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 264
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 270,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 265
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 271,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 266
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 272,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 267
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 273,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 268
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 274,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 269
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 275,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 270
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 276,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 271
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 277,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 272
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 278,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 273
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 279,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 274
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 280,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 275
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 281,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 276
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 282,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 277
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 283,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 278
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 284,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 279
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 285,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 280
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 286,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 281
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 287,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 282
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 288,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 283
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 289,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 284
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 290,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 285
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 291,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 286
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 292,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 287
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 293,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 288
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 294,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 289
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 295,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 290
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 296,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 291
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 297,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 292
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 298,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 293
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 299,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 294
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 300,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 295
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 301,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 296
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 302,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 297
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 303,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 298
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 304,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 299
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 305,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 300
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 306,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 301
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 307,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 302
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 308,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 303
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 309,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 304
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 310,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 305
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 311,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 306
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 312,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 307
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 313,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 308
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 314,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 309
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 315,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 310
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 316,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 311
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 317,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 312
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 318,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 313
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 319,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 314
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 320,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 315
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 321,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 316
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 322,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 317
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 323,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 318
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 324,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 319
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 325,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 320
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 326,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 321
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 327,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 322
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 328,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 323
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 329,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 324
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 330,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 325
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 331,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 326
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 332,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 327
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 333,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 328
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 334,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 329
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 335,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 330
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 336,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 331
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 337,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 332
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 338,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 333
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 339,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 334
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 340,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 335
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 341,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 336
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 342,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 337
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 343,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 338
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 344,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 339
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 345,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 340
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 346,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 341
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 347,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 342
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 348,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 343
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 349,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 344
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 350,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 345
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 351,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 346
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 352,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 347
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 353,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 348
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 354,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 349
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 355,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 350
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 356,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 351
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 357,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 352
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 358,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 353
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 359,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 354
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 360,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 355
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 361,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 356
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 362,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 357
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 363,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 358
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 364,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 359
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 365,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 360
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 366,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 361
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 367,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 362
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 368,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 363
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 369,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 364
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 370,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 365
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 371,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 366
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 372,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 367
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 373,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 368
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 374,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 369
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 375,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 370
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 376,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 371
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 377,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 372
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 378,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 373
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 379,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 374
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 380,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 375
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 381,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 376
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 382,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 377
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 383,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 378
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 384,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 379
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 385,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 380
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 386,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 381
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 387,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 382
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 388,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 383
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 389,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 384
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 390,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 385
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 391,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 386
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 392,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 387
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 393,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 388
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 394,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 389
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 395,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 390
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 396,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 391
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 397,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 392
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 398,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 393
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 399,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 394
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 400,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 395
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 401,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 396
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 402,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 397
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 403,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 398
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 404,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 399
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 405,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 400
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 406,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 401
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 407,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 402
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 408,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 403
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 409,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 404
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 410,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 405
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 411,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 406
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 412,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 407
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 413,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 408
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 414,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 409
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 415,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 410
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 416,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 411
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 417,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 412
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 418,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 413
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 419,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 414
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 420,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 415
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 421,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 416
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 422,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 417
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 423,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 418
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 424,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 419
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 425,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 420
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 426,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 421
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 427,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 422
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 428,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 423
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 429,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 424
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 430,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 425
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 431,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 426
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 432,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 427
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 433,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 428
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 434,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 429
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 435,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 430
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 436,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 431
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 437,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 432
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 438,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 433
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 439,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 434
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 440,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 435
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 441,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 436
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 442,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 437
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 443,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 438
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 444,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 439
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 445,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 440
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 446,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 441
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 447,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 442
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 448,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 443
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 449,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 444
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 450,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 445
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 451,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 446
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 452,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 447
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 453,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 448
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 454,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 449
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 455,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 450
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 456,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 451
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 457,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 452
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 458,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 453
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 459,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 454
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 460,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 455
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 461,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 456
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 462,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 457
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 463,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 458
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 464,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 459
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 465,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 460
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 466,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 461
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 467,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 462
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 468,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 463
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 469,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 464
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 470,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 465
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 471,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 466
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 472,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 467
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 473,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 468
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 474,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 469
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 475,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 470
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 476,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 471
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 477,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 472
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 478,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 473
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 479,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 474
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 480,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 475
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 481,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 476
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 482,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 477
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 483,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 478
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 484,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 479
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 485,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 480
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 486,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 481
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 487,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 482
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 488,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 483
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 489,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 484
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 490,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 485
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 491,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 486
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 492,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 487
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 493,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 488
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 494,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 489
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 495,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 490
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 496,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 491
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 497,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 492
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 498,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 493
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 499,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 494
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 500,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 495
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 501,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 496
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 502,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 497
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 503,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 498
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 504,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 499
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 505,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 500
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 506,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 501
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 507,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 502
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 508,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 503
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 509,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 504
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 510,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 505
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 511,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 506
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 512,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 507
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 513,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 508
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 514,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 509
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 515,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 510
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 516,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 511
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 517,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 512
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 518,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 513
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 519,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 514
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 520,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 515
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 521,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 516
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 522,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 517
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 523,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 518
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 524,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 519
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 525,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 520
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 526,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 521
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 527,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 522
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 528,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 523
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 529,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 524
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 530,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 525
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 531,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 526
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 532,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 527
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 533,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 528
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 534,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 529
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 535,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 530
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 536,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 531
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 537,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 532
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 538,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 533
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 539,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 534
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 540,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 535
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 541,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 536
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 542,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 537
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 543,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 538
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 544,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 539
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 545,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 540
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 546,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 541
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 547,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 542
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 548,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 543
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 549,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 544
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 550,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 545
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 551,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 546
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 552,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 547
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 553,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 548
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 554,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 549
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 555,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 550
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 556,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 551
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 557,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 552
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 558,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 553
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 559,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 554
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 560,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 555
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 561,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 556
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 562,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 557
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 563,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 558
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 564,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 559
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 565,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 560
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 566,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 561
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 567,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 562
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 568,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 563
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 569,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 564
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 570,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 565
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 571,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 566
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 572,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 567
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 573,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 568
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 574,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 569
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 575,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 570
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 576,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 571
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 577,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 572
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 578,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 573
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 579,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 574
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 580,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 575
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 581,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 576
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 582,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 577
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 583,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 578
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 584,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 579
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 585,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 580
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 586,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 581
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 587,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 582
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 588,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 583
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 589,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 584
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 590,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 585
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 591,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 586
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 592,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 587
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 593,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 588
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 594,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 589
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 595,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 590
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 596,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 591
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 597,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 592
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 598,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 593
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 599,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 594
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 600,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 595
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 601,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 596
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 602,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 597
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 603,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 598
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 604,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 599
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 605,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 600
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 606,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 601
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 607,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 602
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 608,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 603
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 609,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 604
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 610,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 605
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 611,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 606
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 612,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 607
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 613,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 608
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 614,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 609
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 615,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 610
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 616,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 611
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 617,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 612
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 618,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 613
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 619,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 614
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 620,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 615
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 621,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 616
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 622,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 617
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 623,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 618
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 624,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 619
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 625,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 620
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 626,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 621
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 627,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 622
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 628,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 623
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 629,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 624
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 630,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 625
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 631,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 626
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 632,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 627
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 633,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 628
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 634,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 629
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 635,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 630
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 636,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 631
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 637,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 632
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 638,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 633
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 639,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 634
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 640,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 635
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 641,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 636
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 642,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 637
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 643,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 638
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 644,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 639
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 645,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 640
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 646,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 641
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 647,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 642
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 648,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 643
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 649,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 644
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 650,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 645
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 651,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 646
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 652,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 647
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 653,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 648
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 654,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 649
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 655,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 650
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 656,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 651
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 657,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 652
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 658,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 653
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 659,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 654
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 660,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 655
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 661,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 656
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 662,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 657
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 663,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 658
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 664,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 659
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 665,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 660
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 666,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 661
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 667,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 662
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 668,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 663
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 669,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 664
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 670,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 665
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 671,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 666
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 672,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 667
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 673,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 668
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 674,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 669
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 675,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 670
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 676,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 671
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 677,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 672
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 678,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 673
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 679,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 674
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 680,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 675
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 681,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 676
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 682,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 677
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 683,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 678
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 684,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 679
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 685,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 680
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 686,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 681
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 687,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 682
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 688,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 683
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 689,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 684
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 690,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 685
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 691,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 686
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 692,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 687
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 693,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 688
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 694,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 689
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 695,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 690
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 696,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 691
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 697,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 692
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 698,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 693
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 699,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 694
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 700,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 695
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 701,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 696
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 702,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 697
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 703,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 698
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 704,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 699
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 705,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 700
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 706,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 701
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 707,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 702
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 708,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 703
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 709,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 704
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 710,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 705
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 711,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 706
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 712,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 707
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 713,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 708
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 714,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 709
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 715,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 710
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 716,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 711
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 717,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 712
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 718,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 713
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 719,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 714
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 720,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 715
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 721,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 716
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 722,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 717
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 723,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 718
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 724,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 719
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 725,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 720
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 726,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 721
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 727,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 722
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 728,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 723
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 729,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 724
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 730,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 725
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 731,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 726
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 732,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 727
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 733,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 728
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 734,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 729
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 735,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 730
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 736,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 731
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 737,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 732
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 738,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 733
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 739,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 734
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 740,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 735
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 741,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 736
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 742,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 737
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 743,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 738
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 744,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 739
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 745,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 740
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 746,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 741
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 747,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 742
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 748,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 743
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 749,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 744
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 750,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 745
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 751,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 746
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 752,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 747
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 753,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 748
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 754,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 749
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 755,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 750
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 756,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 751
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 757,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 752
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 758,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 753
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 759,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 754
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 760,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 755
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 761,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 756
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 762,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 757
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 763,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 758
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 764,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 759
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 765,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 760
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 766,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 761
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 767,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 762
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 768,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 763
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 769,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 764
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 770,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 765
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 771,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 766
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 772,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 767
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 773,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 768
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 774,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 769
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 775,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 770
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 776,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 771
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 777,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 772
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 778,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 773
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 779,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 774
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 780,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 775
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 781,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 776
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 782,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 777
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 783,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 778
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 784,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 779
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 785,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 780
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 786,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 781
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 787,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 782
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 788,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 783
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 789,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 784
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 790,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 785
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 791,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 786
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 792,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 787
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 793,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 788
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 794,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 789
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 795,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 790
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 796,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 791
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 797,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 792
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 798,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 793
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 799,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 794
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 800,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 795
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 801,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 796
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 802,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 797
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 803,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 798
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 804,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 799
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 805,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 800
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 806,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 801
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 807,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 802
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 808,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 803
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 809,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 804
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 810,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 805
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 811,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 806
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 812,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 807
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 813,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 808
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 814,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 809
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 815,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 810
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 816,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 811
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 817,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 812
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 818,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 813
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 819,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 814
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 820,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 815
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 821,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 816
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 822,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 817
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 823,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 818
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 824,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 819
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 825,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 820
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 826,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 821
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 827,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 822
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 828,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 823
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 829,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 824
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 830,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 825
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 831,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 826
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 832,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 827
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 833,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 828
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 834,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 829
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 835,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 830
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 836,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 831
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 837,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 832
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 838,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 833
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 839,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 834
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 840,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 835
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 841,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 836
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 842,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 837
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 843,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 838
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 844,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 839
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 845,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 840
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 846,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 841
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 847,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 842
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 848,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 843
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 849,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 844
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 850,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 845
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 851,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 846
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 852,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 847
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 853,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 848
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 854,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 849
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 855,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 850
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 856,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 851
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 857,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 852
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 858,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 853
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 859,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 854
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 860,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 855
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 861,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 856
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 862,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 857
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 863,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 858
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 864,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 859
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 865,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 860
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 866,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 861
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 867,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 862
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 868,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 863
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 869,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 864
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 870,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 865
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 871,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 866
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 872,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 867
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 873,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 868
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 874,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 869
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 875,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 870
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 876,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 871
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 877,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 872
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 878,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 873
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 879,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 874
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 880,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 875
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 881,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 876
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 882,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 877
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 883,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 878
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 884,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 879
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 885,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 880
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 886,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 881
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 887,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 882
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 888,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 883
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 889,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 884
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 890,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 885
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 891,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 886
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 892,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 887
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 893,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 888
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 894,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 889
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 895,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 890
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 896,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 891
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 897,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 892
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 898,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 893
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 899,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 894
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 900,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 895
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 901,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 896
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 902,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 897
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 903,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 898
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 904,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 899
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 905,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 900
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 906,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 901
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 907,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 902
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 908,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 903
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 909,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 904
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 910,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 905
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 911,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 906
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 912,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 907
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 913,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 908
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 914,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 909
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 915,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 910
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 916,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 911
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 917,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 912
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 918,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 913
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 919,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 914
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 920,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 915
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 921,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 916
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 922,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 917
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 923,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 918
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 924,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 919
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 925,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 920
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 926,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 921
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 927,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 922
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 928,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 923
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 929,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 924
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 930,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 925
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 931,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 926
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 932,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 927
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 933,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 928
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 934,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 929
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 935,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 930
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 936,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 931
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 937,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 932
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 938,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 933
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 939,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 934
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 940,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 935
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 941,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 936
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 942,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 937
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 943,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 938
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 944,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 939
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 945,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 940
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 946,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 941
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 947,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 942
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 948,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 943
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 949,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 944
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 950,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 945
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 951,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 946
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 952,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 947
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 953,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 948
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 954,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 949
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 955,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 950
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 956,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 951
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 957,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 952
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 958,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 953
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 959,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 954
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 960,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 955
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 961,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 956
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 962,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 957
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 963,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 958
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 964,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 959
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 965,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 960
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 966,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 961
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 967,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 962
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 968,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 963
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 969,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 964
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 970,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 965
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 971,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_full.jsonl",
+    "index": 966
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 972,
+   "action": "export_png",
+   "args": {
+    "filename": "anime_max",
+    "path": "anime_max.png"
+   },
+   "expect": {
+    "file": "anime_max.png"
+   }
+  }
+ ]
+}

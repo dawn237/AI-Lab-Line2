@@ -1,0 +1,42 @@
+{
+ "task_id": "fail_case",
+ "screen": {
+  "width": 800,
+  "height": 600
+ },
+ "steps": [
+  {
+   "step": 1,
+   "action": "click_menu",
+   "args": {
+    "menu": "file",
+    "item": "new"
+   },
+   "expect": {
+    "dialog": "new_canvas"
+   }
+  },
+  {
+   "step": 2,
+   "action": "click_ok",
+   "args": {},
+   "expect": {
+    "canvas": [
+     800,
+     600
+    ]
+   }
+  },
+  {
+   "step": 3,
+   "action": "click_menu",
+   "args": {
+    "menu": "file",
+    "item": "open"
+   },
+   "expect": {
+    "dialog": "open_dialog"
+   }
+  }
+ ]
+}

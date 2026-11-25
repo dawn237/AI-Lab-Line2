@@ -1,0 +1,1166 @@
+{
+ "task_id": "anime_100",
+ "screen": {
+  "width": 810,
+  "height": 810
+ },
+ "steps": [
+  {
+   "step": 1,
+   "action": "click_menu",
+   "args": {
+    "menu": "file",
+    "item": "new"
+   },
+   "expect": {
+    "dialog": "new_canvas"
+   }
+  },
+  {
+   "step": 2,
+   "action": "fill_size",
+   "args": {
+    "width": 810,
+    "height": 810
+   },
+   "expect": {
+    "fields": [
+     810,
+     810
+    ]
+   }
+  },
+  {
+   "step": 3,
+   "action": "click_ok",
+   "args": {},
+   "expect": {
+    "canvas": [
+     810,
+     810
+    ]
+   }
+  },
+  {
+   "step": 4,
+   "action": "activate_tool",
+   "args": {
+    "tool": "brush"
+   },
+   "expect": {
+    "tool": "brush"
+   }
+  },
+  {
+   "step": 5,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 0
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 6,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 1
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 7,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 2
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 8,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 3
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 9,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 4
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 10,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 5
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 11,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 6
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 12,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 7
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 13,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 8
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 14,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 9
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 15,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 10
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 16,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 11
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 17,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 12
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 18,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 13
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 19,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 14
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 20,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 15
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 21,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 16
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 22,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 17
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 23,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 18
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 24,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 19
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 25,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 20
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 26,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 21
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 27,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 22
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 28,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 23
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 29,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 24
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 30,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 25
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 31,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 26
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 32,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 27
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 33,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 28
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 34,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 29
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 35,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 30
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 36,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 31
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 37,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 32
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 38,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 33
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 39,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 34
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 40,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 35
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 41,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 36
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 42,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 37
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 43,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 38
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 44,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 39
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 45,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 40
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 46,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 41
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 47,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 42
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 48,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 43
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 49,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 44
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 50,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 45
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 51,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 46
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 52,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 47
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 53,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 48
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 54,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 49
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 55,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 50
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 56,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 51
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 57,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 52
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 58,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 53
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 59,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 54
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 60,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 55
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 61,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 56
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 62,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 57
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 63,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 58
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 64,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 59
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 65,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 60
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 66,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 61
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 67,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 62
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 68,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 63
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 69,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 64
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 70,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 65
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 71,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 66
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 72,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 67
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 73,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 68
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 74,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 69
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 75,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 70
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 76,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 71
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 77,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 72
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 78,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 73
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 79,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 74
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 80,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 75
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 81,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 76
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 82,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 77
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 83,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 78
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 84,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 79
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 85,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 80
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 86,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 81
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 87,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 82
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 88,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 83
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 89,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 84
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 90,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 85
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 91,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 86
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 92,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 87
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 93,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 88
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 94,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 89
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 95,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 90
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 96,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 91
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 97,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 92
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 98,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 93
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 99,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 94
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 100,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 95
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 101,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 96
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 102,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 97
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 103,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 98
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 104,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines_anime.jsonl",
+    "index": 99
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 105,
+   "action": "export_png",
+   "args": {
+    "filename": "anime",
+    "path": "anime.png"
+   },
+   "expect": {
+    "file": "anime.png"
+   }
+  }
+ ]
+}

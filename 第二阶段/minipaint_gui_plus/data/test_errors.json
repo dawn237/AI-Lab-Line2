@@ -1,0 +1,40 @@
+{
+  "task_id": "test_errors",
+  "screen": {"width": 1200, "height": 680},
+  "steps": [
+    {"step": 1, "action": "click_menu", "args": {"menu": "file", "item": "new"}, "expect": {"dialog": "new_canvas"}},
+
+    {"step": 2, "action": "clikc_menu", "args": {}},
+    {"step": 3, "action": "fill_size"},
+    {"step": 4, "action": "click_menu", "args": {"menu": "file"}},
+    {"step": 5, "action": "click_menu", "args": {"menu": "sex", "item": "new"}},
+    {"step": 6, "action": "click_menu", "args": {"menu": "edit", "item": "undo"}},
+    {"step": 7, "action": "click_menu", "args": {"menu": "file", "item": "save"}},
+
+    {"step": 8, "action": "fill_size", "args": {"width": 1200}},
+    {"step": 9, "action": "fill_size", "args": {"width": "1200", "height": 680}},
+    {"step": 10, "action": "fill_size", "args": {"width": 0, "height": 680}},
+
+    {"step": 11, "action": "click_ok", "args": {"x": 1}},
+    {"step": 12, "action": "activate_tool", "args": {"tool": "pen"}},
+    {"step": 13, "action": "activate_tool", "args": {"tool": 123}},
+
+    {"step": 14, "action": "draw_line", "args": {"path": "data/paths_sample.txt", "index": 0}},
+    {"step": 15, "action": "draw_line", "args": {"path": "data/nope.jsonl", "index": 0}},
+    {"step": 16, "action": "draw_line", "args": {"path": "data/paths_sample.jsonl", "index": -1}},
+
+    {"step": 17, "action": "export_png", "args": {"path": "output/r.png"}},
+    {"step": 18, "action": "export_png", "args": {"filename": "a/b", "path": "output/r.png"}},
+    {"step": 19, "action": "export_png", "args": {"filename": "r", "path": "output/r.jpg"}},
+
+    {"step": 20, "action": "fill_size", "args": {"width": 1200, "height": 680}, "expect": "随便写个字符串"},
+    {"step": 21, "action": "fill_size", "args": {"width": 1200, "height": 680}, "expect": {"dialgo": "x"}},
+    {"step": 22, "action": "click_ok", "args": {}, "expect": {"canvas": "1200x680"}},
+    {"step": 23, "action": "click_ok", "args": {}, "expect": {"dialog": "x"}},
+
+    "oops 这一步根本不是对象",
+
+    {"step": 25, "action": "fill_size", "args": {"width": 1200, "height": 680}, "expect": {"fields": [1200, 680]}},
+    {"step": 26, "action": "draw_line", "args": {"path": "data/paths_sample.jsonl", "index": 0}, "expect": {"dirty": true}}
+  ]
+}

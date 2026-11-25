@@ -1,0 +1,286 @@
+{
+ "task_id": "spiral_20",
+ "screen": {
+  "width": 1200,
+  "height": 680
+ },
+ "steps": [
+  {
+   "step": 1,
+   "action": "click_menu",
+   "args": {
+    "menu": "file",
+    "item": "new"
+   },
+   "expect": {
+    "dialog": "new_canvas"
+   }
+  },
+  {
+   "step": 2,
+   "action": "fill_size",
+   "args": {
+    "width": 1200,
+    "height": 680
+   },
+   "expect": {
+    "fields": [
+     1200,
+     680
+    ]
+   }
+  },
+  {
+   "step": 3,
+   "action": "click_ok",
+   "args": {},
+   "expect": {
+    "canvas": [
+     1200,
+     680
+    ]
+   }
+  },
+  {
+   "step": 4,
+   "action": "activate_tool",
+   "args": {
+    "tool": "brush"
+   },
+   "expect": {
+    "tool": "brush"
+   }
+  },
+  {
+   "step": 5,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 0
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 6,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 1
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 7,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 2
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 8,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 3
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 9,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 4
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 10,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 5
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 11,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 6
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 12,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 7
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 13,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 8
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 14,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 9
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 15,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 10
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 16,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 11
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 17,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 12
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 18,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 13
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 19,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 14
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 20,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 15
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 21,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 16
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 22,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 17
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 23,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 18
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 24,
+   "action": "draw_line",
+   "args": {
+    "path": "data/content/lines.jsonl",
+    "index": 19
+   },
+   "expect": {
+    "dirty": true
+   }
+  },
+  {
+   "step": 25,
+   "action": "export_png",
+   "args": {
+    "filename": "result",
+    "path": "output/result.png"
+   },
+   "expect": {
+    "file": "result.png"
+   }
+  }
+ ]
+}
